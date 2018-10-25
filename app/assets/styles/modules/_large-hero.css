@@ -2,6 +2,7 @@
 	border-bottom: 10px solid $mainBlue;
 		position: relative;
 
+
 		&__image {
 			display: block;
 		}
@@ -12,6 +13,11 @@
 		left: 0;
 		width: 100%;
 		text-align: center;
+		padding-top: 88px;
+
+		@mixin atMedium {
+			padding-top: 60px;
+		}
 	}
 
 		&__title {
